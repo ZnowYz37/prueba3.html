@@ -1,0 +1,111 @@
+div{
+	text-align: center;
+	width: 300px;
+}
+
+body{
+	color:white;
+	background-color: #1D1D1D;
+	font-family: Arial, Helvetica, sans-serif;
+}
+ol{
+	list-style: none;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	padding: 13px;
+	font-size: 15px;
+}
+
+.lis{
+	text-align: left;
+
+}
+.first-day{
+	grid-column-start: 5;
+}
+
+.Febrero{
+	grid-column-start: 1;
+}
+
+.Marzo{
+	grid-column-start: 1;
+}
+
+.Abril{
+	grid-column-start: 4;
+}
+
+.Mayo{
+	grid-column-start: 6;
+}
+
+.Junio{
+	grid-column-start: 2;
+}
+
+.Julio{
+	grid-column-start: 4;
+}
+
+.Agosto{
+	grid-column-start: 7;
+}
+
+.Septiembre{
+	grid-column-start: 3;
+}
+
+.Octubre{
+	grid-column-start: 5;
+}
+
+.Noviembre{
+	grid-column-start: 1;
+}
+
+.Diciembre{
+	grid-column-start: 3;
+}
+
+.day-name{
+	background: #eee;
+	font-weight: bold;
+	text-align: center;
+
+}
+
+section article{
+	background-color: #098EFF;
+	color: black;
+	float: left;
+	font-size: 15px;
+	margin: 8px;
+	padding: 7px;
+	text-align: center;
+}
+
+.pepe{
+	background-color: #098EFF;
+	color: black;
+	font-size: 20px;
+	padding: 7px;
+	margin: 8px;
+	text-align: center;
+}
+
+.prueba{
+	font-size: 18px;
+	margin: 0px;
+	padding: 20px;
+	text-align: center;
+}
+
+a{
+	background-color: powderblue;
+	transition: background-color.2;
+}
+
+a.hover{
+	background-color: gold;
+}
